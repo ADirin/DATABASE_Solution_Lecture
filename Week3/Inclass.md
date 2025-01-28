@@ -86,7 +86,9 @@ SELECT quantity FROM inventory WHERE product_id = 1;
 
 ```sql
 -- Add a timestamp column to track updates
-ALTER TABLE inventory ADD COLUMN last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;
+ALTER TABLE inventory 
+MODIFY COLUMN last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;
+
 
 -- Example query to compare timestamps
 SELECT * FROM inventory
