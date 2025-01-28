@@ -18,6 +18,35 @@
 
 ## **Part 2: Techniques for Managing Concurrency**
 
+**Inventory table**
+```sql
+-- Step 1: Create the inventory table
+CREATE TABLE inventory (
+    product_id INT AUTO_INCREMENT PRIMARY KEY,
+    product_name VARCHAR(255) NOT NULL,
+    quantity INT NOT NULL DEFAULT 0,
+    price DECIMAL(10, 2) NOT NULL,
+    last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    version INT DEFAULT 1
+);
+
+-- Step 2: Populate the inventory table with sample data
+INSERT INTO inventory (product_name, quantity, price) VALUES
+('Laptop', 50, 999.99),
+('Smartphone', 100, 699.99),
+('Tablet', 75, 399.99),
+('Headphones', 150, 49.99),
+('Smartwatch', 60, 199.99),
+('Camera', 30, 499.99),
+('Printer', 40, 89.99),
+('Monitor', 25, 149.99),
+('Keyboard', 200, 29.99),
+('Mouse', 300, 19.99);
+
+
+
+```
+
 ### **1. Locks (Pessimistic Concurrency Control)**
 
 #### **SQL Example:**
