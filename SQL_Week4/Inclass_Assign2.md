@@ -18,6 +18,19 @@ CREATE TABLE students (
 );
 
 ```
+3. Student_audit
+
+```sql
+
+CREATE TABLE student_audit (
+    audit_id INT PRIMARY KEY AUTO_INCREMENT,
+    student_id INT,
+    old_score INT,
+    new_score INT,
+    changed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+```
 
 ## Part 1: Implementing a Trigger
 
