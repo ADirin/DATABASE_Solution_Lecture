@@ -86,4 +86,3 @@ Students will work in pairs to develop a backend system using Hibernate, JPA, JP
      - Highlight any bonus challenges implemented.
    - Be prepared to answer questions from the instructor or classmates.
 
-This project will give students hands-on experience with Hibernate and JPA, focusing on backend development, data persistence, and complex querying using JPQL and Criteria API.
