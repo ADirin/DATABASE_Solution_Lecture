@@ -11,9 +11,7 @@ Students will work in pairs to develop a backend system using Hibernate, JPA, JP
 - JPA
 - JPQL & Criteria API
 - MariaDB
-- Spring Boot (optional for easier setup)
-- Maven or Gradle
-- JUnit (for testing)
+- Spring Boot (optional for easier setup and ui development)
 
 ## Project Requirements
 
@@ -35,7 +33,8 @@ Students will work in pairs to develop a backend system using Hibernate, JPA, JP
 ### 2. Database Configuration
 
 - Configure Hibernate to use MariaDB as the database.
-- Define a `persistence.xml` file or use `application.properties` for Spring Boot setup.
+- Define a `persistence.xml` file or
+- use `application.properties` for Spring Boot setup (**Optional**).
 - Enable Hibernate’s SQL logging to verify queries and transactions.
 
 ### 3. JPQL Queries
@@ -56,7 +55,6 @@ Students will work in pairs to develop a backend system using Hibernate, JPA, JP
 - Use proper JPA annotations such as `@Entity`, `@Table`, `@Id`, `@OneToMany`, `@ManyToOne`, and `@ManyToMany` where necessary.
 - Implement cascading operations and fetch types appropriately.
 - Organize the project using a service layer for business logic and a repository layer for data access.
-- Write unit tests using JUnit to validate core functionalities.
 
 ## Evaluation Criteria
 
@@ -65,7 +63,6 @@ Students will work in pairs to develop a backend system using Hibernate, JPA, JP
 - Efficient querying using JPQL and Criteria API.
 - Well-structured database schema and correct Hibernate configuration.
 - Clean, readable code following best practices with proper layering.
-- Demonstration of automated tests to ensure functionality.
 
 ## Bonus Challenges
 
