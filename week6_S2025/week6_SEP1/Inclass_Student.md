@@ -131,3 +131,4 @@ docker run -it aikido-tracker
 
 
 ```
+[Potential Solution](https://github.com/ADirin/SEP1_week6_Inclass_Student.git) 
