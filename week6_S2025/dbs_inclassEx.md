@@ -22,6 +22,7 @@ The goal of this assignment is to help students understand and implement differe
    - Print confirmation messages to indicate successful insertion.
 
 ## Deliverables
+- You may submit pdf of the screenshots of the implementation / github link of your solutions 
 - JPA entity classes with proper annotations.
 - A fully functional `LibraryDAO` class using `EntityManager`.
 - `persistence.xml` configured for MariaDB.
